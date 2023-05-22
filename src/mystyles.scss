@@ -1,0 +1,22 @@
+$primary-color: rgb(104, 170, 255);
+
+.red-background {
+  background-color: $primary-color;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  #root {
+    background-color: $primary-color;
+    padding: 20px;
+  }
+}
+
+.logoContainer {
+  img {
+    width: 150px;
+  }
+}
